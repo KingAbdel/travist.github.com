@@ -4,7 +4,7 @@
   <title><![CDATA[Category: projects | Travis Tidwell]]></title>
   <link href="http://travist.github.io/blog/categories/projects/atom.xml" rel="self"/>
   <link href="http://travist.github.io/"/>
-  <updated>2013-08-20T10:34:54-05:00</updated>
+  <updated>2013-08-20T10:36:27-05:00</updated>
   <id>http://travist.github.io/</id>
   <author>
     <name><![CDATA[Travis Tidwell]]></name>
@@ -55,7 +55,7 @@ generated with OpenSSL. Enter <a href="https://github.com/travist/jsencrypt">JSE
 
 <h2>Website &amp; Demo</h2>
 
-<p>http://travistidwell.com/jsencrypt</p>
+<p><a href="http://travistidwell.com/jsencrypt">http://travistidwell.com/jsencrypt</a></p>
 
 <h2>How to use this library.</h2>
 
