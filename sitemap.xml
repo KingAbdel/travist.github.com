@@ -18,7 +18,7 @@
         <loc>
             http://travist.github.io/blog/2013/02/15/a-better-library-for-javascript-asymmetrical-rsa-encryption/
         </loc>
-        <lastmod>2013-08-20T11:03:10-05:00</lastmod>
+        <lastmod>2013-08-21T19:25:57-05:00</lastmod>
     </url>
     <url>
         <loc>
@@ -47,12 +47,18 @@
         <lastmod>2013-08-20T10:48:57-05:00</lastmod>
     </url>
     <url>
+        <loc>
+            http://travist.github.io/blog/2013/08/20/automating-the-web-with-jquery-plus-node-dot-js-plus-phantom-dot-js/
+        </loc>
+        <lastmod>2013-08-20T22:30:49-05:00</lastmod>
+    </url>
+    <url>
         <loc>http://travist.github.io/blog/archives/</loc>
-        <lastmod>2013-08-20T11:03:10-05:00</lastmod>
+        <lastmod>2013-08-21T19:25:57-05:00</lastmod>
     </url>
     <url>
         <loc>http://travist.github.io/</loc>
-        <lastmod>2013-08-20T11:03:10-05:00</lastmod>
+        <lastmod>2013-08-21T19:25:57-05:00</lastmod>
     </url>
     <url>
         <loc>http://travist.github.io/robots.txt</loc>

@@ -4,7 +4,7 @@
   <title><![CDATA[Category: encryption | Travis Tidwell]]></title>
   <link href="http://travist.github.io/blog/categories/encryption/atom.xml" rel="self"/>
   <link href="http://travist.github.io/"/>
-  <updated>2013-08-20T11:03:43-05:00</updated>
+  <updated>2013-08-21T19:26:55-05:00</updated>
   <id>http://travist.github.io/</id>
   <author>
     <name><![CDATA[Travis Tidwell]]></name>
@@ -46,7 +46,7 @@ I recognized this as a perfect opportunity to create a simple wrapper library ar
 simply speaks in terms of the <strong>Public</strong> and <strong>Private</strong> keys
 everyone is familiar with.  Of course I found other libraries out there that claim to do the same, but
 what I couldn't find in these libraries was a simple wrapper around this library that basically uses
-Tom's library UNTOUCHED, but simply adds a wrapper to provide parsing of actual Private and Public key-pairs
+Tom's library <a href="https://github.com/travist/jsencrypt/pull/6">practically</a> untouched, but simply adds a wrapper to provide parsing of actual Private and Public key-pairs
 generated with OpenSSL. Enter <a href="https://github.com/travist/jsencrypt">JSEncrypt</a>.</p>
 
 <h2>Download</h2>

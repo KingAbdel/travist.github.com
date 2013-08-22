@@ -4,7 +4,7 @@
   <title><![CDATA[Travis Tidwell]]></title>
   <link href="http://travist.github.io/atom.xml" rel="self"/>
   <link href="http://travist.github.io/"/>
-  <updated>2013-08-20T11:03:43-05:00</updated>
+  <updated>2013-08-21T19:26:55-05:00</updated>
   <id>http://travist.github.io/</id>
   <author>
     <name><![CDATA[Travis Tidwell]]></name>
@@ -12,6 +12,45 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Automating the web with jQuery + Node.js + Phantom.js]]></title>
+    <link href="http://travist.github.io/blog/2013/08/20/automating-the-web-with-jquery-plus-node-dot-js-plus-phantom-dot-js/"/>
+    <updated>2013-08-20T21:49:00-05:00</updated>
+    <id>http://travist.github.io/blog/2013/08/20/automating-the-web-with-jquery-plus-node-dot-js-plus-phantom-dot-js</id>
+    <content type="html"><![CDATA[<p>As most of you may already know (from my previous articles), I have taken a deep
+interest in creating web automation and testing tools using a combination of
+Node.js and Phantom.js browser, which combined give you the power to build some really amazing automation tools. Previously,
+my focus has been to leverage existing interfaces that has already taken root
+in web automation within the Node.js community.  Specifically, these interests were in providing the <a href="http://zombie.labnotes.org/">Zombie.js</a>
+interface to the <a href="http://phantomjs.org/">Phantom.js</a> browser within Node.js.  This
+effort was captured in <a href="http://travistidwell.com/blog/2013/07/05/using-phantomjs-with-nodejs/">a previous blog post that you are welcome to read</a>, but I am
+not here to talk about that&#8230; to be honest, I was not particularly happy with how it turned
+out simply because I realized that the Zombie.js interface is not the most elegant of interfaces for reasons out of the scope of this article.</p>
+
+<p>So when it comes to Javascript interfaces, there is really one that stands out as being the
+defacto standard in web development&#8230; jQuery.</p>
+
+<!-- more -->
+
+
+<p>jQuery&#8217;s separation between &#8220;Find Something&#8221; and &#8220;Do Something&#8221; combined with method chaining
+was such a simple but powerful notion that literally changed the way we all write JavaScript.  The following command seems so simple these days&#8230;</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$('div.find_me').doSomething().doSomethingElse();</span></code></pre></td></tr></table></div></figure>
+
+
+<p>However, when this first came out, it was revolutionary.  People just &#8216;got it&#8217; and it made working with JavaScript fun again. So, why do we
+not have the same jQuery interface to build web automation and testing tools?  The interfaces that we get with web automation tools are those
+of <a href="http://pear.php.net/package/Testing_Selenium/docs/latest/elementindex_Selenium.html">Selenium</a> and <a href="http://zombie.labnotes.org/API">others</a>, but these must be learned&#8230;  They don&#8217;t seem familiar&#8230; at least not to me.</p>
+
+<p>So, I sought out to look for a web automation tool that used the jQuery interface within Node.js. I came up empty handed.  I did find the &#8216;Official&#8217;
+<a href="https://github.com/coolaj86/node-jquery">jQuery project for Node.js</a>, but this was not used for web automation.  In fact, it is really hard to figure out what it IS used for&#8230; I think you
+could use it to help parse through DOM&#8217;s within Node.js or even XML, but web automation and testing&#8230; not so much.  So, I did what any other
+software geek would do in this situation&#8230; I created my own.  I am calling it <strong>jquery.go.js</strong> and I am pretty happy how it turned out&#8230;</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Coder Soundtrack volume 2]]></title>
@@ -448,7 +487,7 @@ I recognized this as a perfect opportunity to create a simple wrapper library ar
 simply speaks in terms of the <strong>Public</strong> and <strong>Private</strong> keys
 everyone is familiar with.  Of course I found other libraries out there that claim to do the same, but
 what I couldn&#8217;t find in these libraries was a simple wrapper around this library that basically uses
-Tom&#8217;s library UNTOUCHED, but simply adds a wrapper to provide parsing of actual Private and Public key-pairs
+Tom&#8217;s library <a href="https://github.com/travist/jsencrypt/pull/6">practically</a> untouched, but simply adds a wrapper to provide parsing of actual Private and Public key-pairs
 generated with OpenSSL. Enter <a href="https://github.com/travist/jsencrypt">JSEncrypt</a>.</p>
 
 <h2>Download</h2>
